@@ -1,0 +1,107 @@
+div.animation {
+  width: 100%;
+  height: 100vh;
+  background-color: #e08958;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#first {
+  stroke-dasharray: 427px;
+  stroke-dashoffset: 427px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#second {
+  stroke-dasharray: 485px;
+  stroke-dashoffset: 485px;
+  animation: fadeInside 0.6s ease-in forwards 0.3s;
+}
+#third {
+  stroke-dasharray: 249px;
+  stroke-dashoffset: 249px;
+  animation: fadeInside 0.6s ease-in forwards 0.6s;
+}
+#fourth {
+  stroke-dasharray: 325px;
+  stroke-dashoffset: 325px;
+  animation: fadeInside 0.6s ease-in forwards 0.9s;
+}
+
+#fifth {
+  stroke-dasharray: 378px;
+  stroke-dashoffset: 378px;
+  animation: fadeInside 0.6s ease-in forwards 1.2s;
+}
+
+#sixth {
+  stroke-dasharray: 673px;
+  stroke-dashoffset: 673px;
+  animation: fadeInside 0.6s ease-in forwards 1.5s;
+}
+
+#seventh {
+  stroke-dasharray: 348px;
+  stroke-dashoffset: 348px;
+  animation: fadeInside 0.6s ease-in forwards 1.8s;
+}
+
+#eighth {
+  stroke-dasharray: 1548px;
+  stroke-dashoffset: 1548px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+#ninth {
+  stroke-dasharray: 1180px;
+  stroke-dashoffset: 1180px;
+  animation: fadeInside 0.6s ease-in forwards 0.3s;
+}
+#tenth {
+  stroke-dasharray: 1153px;
+  stroke-dashoffset: 1153px;
+  animation: fadeInside 0.6s ease-in forwards 0.6s;
+}
+#eleventh {
+  stroke-dasharray: 1413px;
+  stroke-dashoffset: 1413px;
+  animation: fadeInside 0.6s ease-in forwards 0.9s;
+}
+#twelfth {
+  stroke-dasharray: 593px;
+  stroke-dashoffset: 593px;
+  animation: fadeInside 0.6s ease-in forwards 1.2s;
+}
+#thirteenth {
+  stroke-dasharray: 1283px;
+  stroke-dashoffset: 1283px;
+  animation: fadeInside 0.6s ease-in forwards 1.5s;
+}
+#fourteenth {
+  stroke-dasharray: 1221px;
+  stroke-dashoffset: 1221px;
+  animation: fadeInside 0.6s ease-in forwards 1.8s;
+}
+
+svg {
+  animation: fill 1s ease-in forwards 1.8s;
+}
+
+@keyframes fadeInside {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes fill {
+  form {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}
